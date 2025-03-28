@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Funcionario
+comment1.params=_nome\ _cpf
+comment1.target=Funcionario(java.lang.String,\ java.lang.String)
+comment2.params=funcao
+comment2.target=void\ Ocupacao(java.lang.String)
+comment3.params=salarioF
+comment3.target=void\ SalarioFuncionario(double)
+comment4.params=
+comment4.target=void\ ExibirDados()
+numComments=5
