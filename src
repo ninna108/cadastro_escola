@@ -1,0 +1,30 @@
+
+public class Aluno extends Pessoa 
+{
+    public Aluno(String _nome, String _cpf)
+    {
+        super(_nome, _cpf);
+    }
+    private double nota1;
+    private double nota2;
+    public double media;  
+    
+    public void Media (double n1, double n2)
+    {
+        nota1 = n1;
+        nota2 = n2;
+    }
+    
+    public void CalcularMedia ()
+    {
+        media = (nota1 + nota2)/2;
+        media = media;
+    }
+     public void ExibirMedia ()
+     {
+     System.out.println("nome" +nome);
+     System.out.println("nota 1" +nota1);
+     System.out.println("nota 2" +nota2);
+     System.out.println(",media" +media);
+    }
+}
